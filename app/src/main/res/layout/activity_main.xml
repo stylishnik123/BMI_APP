@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#222222"
+            android:text="Calculate Your BMI"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"/>
+    <EditText
+            android:id="@+id/edtWt"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:hint="Enter Weight(kg)"
+            android:inputType="numberDecimal"
+    />
+
+
+    <EditText
+            android:id="@+id/edtHt"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:hint="Enter Height(meter)"
+            android:inputType="numberDecimal"
+    />
+
+
+    <Button
+            android:id="@+id/btnCalBmi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="calculate bmi" />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:id="@+id/txtMsg"
+            android:textColor="#0000ff"
+            android:text="Feet to Meter Conversion(You can enter in decimals)"/>
+
+    <EditText
+            android:id="@+id/edtFeet"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:hint="Enter Value In  Feet"
+            android:inputType="numberDecimal"
+    />
+    <Button
+            android:id="@+id/btnCalMeter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="calculate Meter" />
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/txtMeter"
+            android:layout_gravity="center"
+            android:textColor="#FF00FF"
+            android:text="Meter="/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/txtInfo1"
+            android:textColor="#8B008B"
+            android:text="Developed by Nikhil Wadhwa"/>
+
+</LinearLayout>
